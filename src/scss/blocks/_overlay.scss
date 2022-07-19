@@ -1,0 +1,23 @@
+.overlay {
+    display: block;
+    width: 840px;
+    height: 799px;
+    background-color: #dddd;
+}
+
+
+.frame {
+    &__subtitle {
+        position: absolute;
+        width: 208px;
+        height: 28px;
+        left: 373px;
+        top: 412px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #566878;
+    }
+}
